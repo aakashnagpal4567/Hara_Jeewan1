@@ -1,0 +1,326 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
+<link rel="stylesheet" href="{{ url_for('static', filename='css/cropq.css') }}">
+
+</head>
+<body>
+  <div style="background-color: black;">
+    <br>
+    <center>
+    <p style="color: whitesmoke; font-size:50px;"><b>CROP INFORMATION</b></p>
+    </center>
+  
+
+  </div>
+<div class="topnav">
+  <center>
+  <div class="search-container">
+    <form action="/cropinfo", method="POST">
+      <input type="text" placeholder="Enter Crop Name..." name="crop">
+      <button type="submit"><i class="fa fa-search"></i></button>
+    </form>
+  </div>
+    </center>
+`
+</center>
+
+
+
+</br>
+<div class="row row-cols-1 row-cols-md-4">
+  <!-- row starts -->
+  <!-- card start -->
+  
+ <div class="col mb-3">
+  <a href="#" style="color:black;" id="kiwicm">
+  <div class="card h-100">
+    <img src="/static/groundnut.jpg" class="card-img-top" alt="...">
+    <div class="card-body">
+      <h1 class="card-title">GROUNDNUT</h1>
+      <p class="card-text">The peanut, also known as the groundnut, goober, pindar or monkey nut, and taxonomically classified as Arachis hypogaea, is a legume crop grown mainly for its edible seeds. It is widely grown in the tropics and subtropics, being important to both small and large commercial producers
+      </p>
+    </div>
+  </div>
+  </a>
+</div>
+<!-- card ends -->
+
+
+<div class="col mb-3">
+  <div class="card h-100">
+    <img src="/static/potato.jpg" class="card-img-top" alt="...">
+    <div class="card-body">
+      <h1 class="card-title">POTATO</h1>
+      <p class="card-text"> TheÂ potato is a root vegetable native to the Americas, a starchy tuber of the plant Solanum tuberosum, and the plant itself is a perennial in the nightshade family, Solanaceae. WildÂ potatoÂ species, originating in  modern-day Peru, can be found throughout the Americas, from Canada to southern Chile.
+        .</p>
+    </div>
+  </div>
+</div>
+<!--  -->
+
+<div class="col mb-3">
+  <div class="card h-100">
+    <img src="/static/wheat.jpg" class="card-img-top" alt="..." width="400px">
+    <div class="card-body">
+      <h1 class="card-title">WHEAT</h1>
+      <p class="card-text">It is the best of the cereal foods and provides more nourishment for humans than any other food source.Â WheatÂ is a major diet component because of theÂ wheatÂ plant's agronomic adaptability, ease of grain storage and ease of converting grain into flour for making edible, palatable, interesting and satisfying foods.
+      </p>
+    </div>
+  </div>
+</div>
+<!--  -->
+
+
+<!-- card start -->
+<div class="col mb-3">
+<div class="card h-100">
+  <img src="/static/strawberry.jpg" class="card-img-top" alt="...">
+  <div class="card-body">
+    <h1 class="card-title">STRAWBERRY</h1>
+    <p class="card-text">StrawberriesÂ are bright red, juicy, and sweet. They're an excellent source of vitamin C and manganese and also contain decent amounts of folate (vitamin B9) and potassium.Â StrawberriesÂ are very rich in antioxidants and plant compounds, which may have benefits for heart health and blood sugar control
+    </p>
+  </div>
+</div>
+</div>
+<!-- card ends -->
+<div class="col mb-3">
+<div class="card h-100">
+  <img src="/static/onion.jpg" class="card-img-top" alt="...">
+  <div class="card-body">
+    <h1 class="card-title">ONION</h1>
+    <p class="card-text">Onions belong to the Allium family of plants, which also includes chives, garlic, and leeks. These vegetables have characteristic pungent flavors.</p>
+  </div>
+</div>
+</div>
+<!--  -->
+
+<div class="col mb-3">
+<div class="card h-100">
+  <img src="/static/pineapple.jpg" class="card-img-top" alt="..." width="400px">
+  <div class="card-body">
+    <h1 class="card-title">PINEAPPLE</h1>
+    <p class="card-text">Pineapple (Ananas comosus) is an incredibly delicious and healthy tropicalÂ fruit. It originated in South America, where early European explorers named it after its resemblance to a pinecone
+    </p>
+  </div>
+</div>
+</div>
+<!--  -->
+<!-- card start -->
+<div class="col mb-3">
+<div class="card h-100">
+<img src="/static/broccoli.jpg" class="card-img-top" alt="...">
+<div class="card-body">
+  <h1 class="card-title">BROCCOLI</h1>
+  <p class="card-text">Broccoli (Brassica oleracea) is a cruciferous vegetable related to cabbage, kale, cauliflower, and Brussels sprouts. These vegetables are known for their beneficial health effects. Broccoli is high in many nutrients, including fiber, vitamin C, vitamin K, iron, and potassium
+  </p>
+</div>
+</div>
+</div>
+<!-- card ends -->
+
+<div class="col mb-3">
+<div class="card h-100">
+<img src="/static/apple.jpeg" class="card-img-top" alt="...">
+<div class="card-body">
+  <h1 class="card-title">APPLE</h1>
+  <p class="card-text">Apples are a popular fruit, containing antioxidants, vitamins, dietary fiber, and a range of other nutrients</p>
+</div>
+</div>
+</div>
+<!--  -->
+
+<div class="col mb-3">
+<div class="card h-100">
+<img src="/static/mango.jpg" class="card-img-top" alt="..." width="400px">
+<div class="card-body">
+  <h1 class="card-title">MANGO</h1>
+  <p class="card-text">A mango is an edible stone fruit produced by the tropical tree Mangifera indica which is believed to have originated from the region between northwestern Myanmar, Bangladesh, and northeastern India.</p>
+</div>
+</div>
+</div>
+<!--  -->
+  <!-- card start -->
+<div class="col mb-3">
+  <div class="card h-100">
+    <img src="/static/mushroom.jpg" class="card-img-top" alt="...">
+    <div class="card-body">
+      <h1 class="card-title">MUSHROOM</h1>
+      <p class="card-text">Mushrooms are a rich, low calorie source of fiber,Â protein, andÂ antioxidants. They may also mitigate the risk of developing serious health conditions, such as Alzheimer's, heart disease, cancer, and diabetes. They're also great sources of: Selenium.</p>
+    </div>
+  </div>
+</div>
+<!-- card ends -->
+<div class="col mb-3">
+  <div class="card h-100">
+    <img src="/static/mustard.jpg" class="card-img-top" alt="...">
+    <div class="card-body">
+      <h1 class="card-title">MUSTARD</h1>
+      <p class="card-text">The mustard plant is a plant species in the genera Brassica and Sinapis in the family Brassicaceae.Â Mustard seed is used as a spice. Grinding and mixing the seeds with water, vinegar, or other liquids creates the yellow condiment known as preparedÂ mustard.
+      </p>
+    </div>
+  </div>
+</div>
+<!--  -->
+
+<div class="col mb-3">
+  <div class="card h-100">
+    <img src="/static/cucumber.jpg" class="card-img-top" alt="..." width="400px">
+    <div class="card-body">
+      <h1 class="card-title">CUCUMBER</h1>
+      <p class="card-text">Cucumber is a widely-cultivated creeping vine plant in the Cucurbitaceae gourd family that bears cucumiform fruits, which are used as vegetables. There are three main varieties of cucumberâ€”slicing, pickling, and burpless/seedlessâ€”within which several cultivars have been created
+      </p>
+    </div>
+  </div>
+</div>
+<!--  -->
+
+<div class="col mb-3">
+  <div class="card h-100">
+    <img src="/static/oats.jpg" class="card-img-top" alt="...">
+    <div class="card-body">
+      <h1 class="card-title">OATS</h1>
+      <p class="card-text">Oats are a whole-grain food, known scientifically as Avena sativa.Â OatÂ groats, the most intact and whole form ofÂ oats, take a long time to cook. For this reason, most people prefer rolled, crushed or steel-cutÂ oats. Instant (quick)Â oatsÂ are the most highly processed variety
+      </p>
+    </div>
+  </div>
+</div>
+<!--  -->
+
+<div class="col mb-3">
+  <div class="card h-100">
+    <img src="/static/linseed.jpeg" class="card-img-top" alt="...">
+    <div class="card-body">
+      <h1 class="card-title">LINSEED</h1>
+      <p class="card-text">Though tiny, they are rich in the omega-3 fatty acid ALA, lignans and fiber, all of which have been shown to have many potential health benefits. They can be used to improve digestive health, lower blood pressure and bad cholesterol, reduce the risk of cancer and may benefit people with diabetes
+      </p>
+    </div>
+  </div>
+</div>
+<!--  -->
+
+<div class="col mb-3">
+  <div class="card h-100">
+    <img src="/static/barley.jpg" class="card-img-top" alt="...">
+    <div class="card-body">
+      <h1 class="card-title">BARLEY</h1>
+      <p class="card-text">Grown in a variety of environments,barley is the fourth largest grain crop globally, after wheat, rice, and corn. BarleyÂ is commonly used in breads, soups, stews, and health products, though it is primarily grown as animal fodder and as a source of malt for alcoholic beverages, especially beer.
+      </p>
+    </div>
+  </div>
+</div>
+<!--  -->
+
+<div class="col mb-3">
+  <div class="card h-100">
+    <img src="/static/gram.jpeg" class="card-img-top" alt="...">
+    <div class="card-body">
+      <h1 class="card-title">GRAM</h1>
+      <p class="card-text">Gram seeds are small and dark and have a rough coat. In the Indian vegetarian culinary scenario, bengalÂ gramÂ is a major ingredient. It is essentially used in making curries. In the southern India, unripeÂ gramsÂ are picked and consumed as snack and the leaves are added in the making of salads.
+      </p>
+    </div>
+  </div>
+</div>
+<!--  -->
+
+<div class="col mb-3">
+  <div class="card h-100">
+    <img src="/static/peas.jpg" class="card-img-top" alt="...">
+    <div class="card-body">
+      <h1 class="card-title">PEAS</h1>
+      <p class="card-text">Pea is used as human food, both as a grain crop and as a popular vegetable. It is also used for animal feed. Pea seed is high in protein and a good source of vitamins such as riboflavin and niacin.Â PeaÂ is a climbing plant with a weak stem where tendrils allow it to trail if support is available.
+      </p>
+    </div>
+  </div>
+</div>
+<!--  -->
+
+<div class="col mb-3">
+  <div class="card h-100">
+    <img src="/static/papaya.jpg" class="card-img-top" alt="...">
+    <div class="card-body">
+      <h1 class="card-title">PAPAYA</h1>
+      <p class="card-text">Papaya is the fruit of the Carica papaya plant. Papayas are shaped similar to pears and can be up to 20 inches (51 cm) long. The skin is green when unripe and orange when ripe, while the flesh is yellow, orange or red. TheÂ fruitÂ also has many black seeds, which are edible but bitter.
+      </p>
+    </div>
+  </div>
+</div>
+<!--  -->
+
+<div class="col mb-3">
+  <div class="card h-100">
+    <img src="/static/rice.jpg" class="card-img-top" alt="...">
+    <div class="card-body">
+      <h1 class="card-title">RICE</h1>
+      <p class="card-text">Rice, (Oryza sativa), edible starchy cereal grain and the grass plant (family Poaceae) by which it is produced. ...Â RiceÂ is cooked by boiling, or it can be ground into a flour. It is eaten alone and in a great variety of soups, side dishes, and main dishes in Asian, Middle Eastern, and many other cuisines.
+      </p>
+    </div>
+  </div>
+</div>
+<!--  -->
+
+<div class="col mb-3">
+  <div class="card h-100">
+    <img src="/static/jowar.jpg" class="card-img-top" alt="...">
+    <div class="card-body">
+      <h1 class="card-title">JOWAR</h1>
+      <p class="card-text">Sorghum popularly known asÂ jowarÂ is the most important food and fodder crop of dry land agriculture. The cereal crop is perennial in nature and possessing corn like leaves and bearing the grain in a compact cluster. Sorghum is the fifth most important cereal crop in the world after wheat, rice, maize and barley.
+      </p>
+    </div>
+  </div>
+</div>
+<!--  -->
+
+<div class="col mb-3">
+  <div class="card h-100">
+    <img src="/static/cotton.jpg" class="card-img-top" alt="...">
+    <div class="card-body">
+      <h1 class="card-title">COTTON</h1>
+      <p class="card-text">Cotton is known for its versatility, performance and natural comfort.Â Cotton'sÂ strength and absorbency makes it an ideal fabric to make clothes and homewares, and industrial products like tarpaulins, tents, hotel sheets, army uniforms, and even astronauts' clothing choices when inside a space shuttle.
+        .</p>
+    </div>
+  </div>
+</div>
+<!--  -->
+
+<div class="col mb-3">
+  <div class="card h-100">
+    <img src="/static/moong.jpg" class="card-img-top" alt="...">
+    <div class="card-body">
+      <h1 class="card-title">MOONG</h1>
+      <p class="card-text">Mung beans are high in nutrients and antioxidants, which may provideÂ health benefits. In fact, they may protect against heat stroke, aid digestive health, promote weight loss and lower â€œbadâ€ LDLÂ cholesterol, blood pressure and blood sugar levels
+      </p>
+    </div>
+  </div>
+</div>
+<!--  -->
+
+<div class="col mb-3">
+  <div class="card h-100">
+    <img src="/static/urad.jpg" class="card-img-top" alt="...">
+    <div class="card-body">
+      <h1 class="card-title">URAD</h1>
+      <p class="card-text">The high content ofÂ mineralsÂ and vitamins in urad dal helps to maintain healthyÂ skinÂ and hair. It reducesÂ skinÂ irritation, and its highÂ ironÂ content circulates more oxygen in the body for radiant and glowingÂ skin. Urad dal can also reduce sunburn, tan, and acne.
+      </p>
+    </div>
+  </div>
+</div>
+<!--  -->
+
+
+</div>
+<!-- row ends -->
+
+<br>
+<br>
+<br>
+<br>
+<center><P style="font-size: 50px;">THANKS FOR VISITING</P>
+</center>
+<br>
+
+</body>
+</html>

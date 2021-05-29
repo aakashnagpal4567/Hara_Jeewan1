@@ -1,0 +1,115 @@
+header{
+    background-color:rgb(238, 214, 177) ;
+    background-image: url("https://images.unsplash.com/photo-1557234195-bd9f290f0e4d?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&auto=format&fit=crop&w=1050&q=80");
+    background-repeat:no-repeat;
+    transform: none;
+    background-size:100% 100%;
+    box-shadow: 1px 2px 10px 5px white;
+    animation: slider 12s infinite linear;
+    height:300px;
+    width:100%;
+}
+@keyframes slider{
+    0%{ background-image:url("https://images.unsplash.com/photo-1557234195-bd9f290f0e4d?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&auto=format&fit=crop&w=1050&q=80");
+    background-size:100% 100%;}
+    35%{
+        background-image:url("https://images.unsplash.com/photo-1586810147054-4439981ada92?ixid=MXwxMjA3fDB8MHxzZWFyY2h8Mjh8fGZhcm1lcnMlMjBmaWVsZHxlbnwwfHwwfA%3D%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60");
+        background-size:100% 100%;
+    }
+    75%{
+        background-image:url("https://images.unsplash.com/photo-1565060156559-fd6a027cd88e?ixid=MXwxMjA3fDB8MHxzZWFyY2h8MjZ8fGZhcm1lcnMlMjBmaWVsZHxlbnwwfHwwfA%3D%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60");
+        background-size:100% 100%;
+    }
+    }
+}
+.para{
+    color: rgb(0, 0, 0);
+}
+.head{
+    text-align: center;
+    padding: 0px;
+    color:black;
+}
+.header{
+    line-height: 2;
+}
+.fig-img{
+    position: relative;
+}
+.fig1,.fig2{
+    margin-left: 50px;
+    
+}
+.fig2{
+    margin-right: 150px;
+}
+.fig-cen{
+    text-align: center;
+}
+.search{
+    position: absolute;
+    left:1200px;
+    top: 280px;
+    color:white;
+}
+.lan{
+    position: absolute;
+    left:1200px;
+    top: 230px;
+    color:white;
+}
+.link{
+    color: #1e212d;
+    text-decoration: none;
+}
+.heads{
+    color: coral;
+    left: 900px;
+}
+
+nav{
+    line-height: 3.5;
+    opacity: 0.8;
+    background-color: #d49d42;
+    text-decoration: none;
+}
+body{
+    margin: 0%;
+}
+
+.text{
+    text-align: center;
+    
+}
+
+.frame{
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    display: block;
+}
+
+div{
+    vertical-align: middle;
+}
+.footer{
+    
+    background-color: #d49d42;
+    text-align: center;
+}
+.text{
+    color:black;
+    text-decoration: none;
+    text-align: center;
+    background-repeat: repeat;
+}
+a:hover{
+    color:coral;
+}
+a:visited{
+    color:green;
+}
+.sec{
+    background-color:#ffd880;
+    
+}

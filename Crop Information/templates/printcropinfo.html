@@ -1,0 +1,125 @@
+<html>
+<head>
+ <!-- Required meta tags -->
+ <meta charset="utf-8">
+ <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+ 
+ <!-- Bootstrap CSS -->
+ <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+ <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+ <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+ <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="{{ url_for('static', filename='css/printcropinfo.css') }}">
+</head>
+
+    <body>
+     <center style="background-color:aliceblue;">   
+    </br>
+
+        <b><p style="font-size: 100px;font-family: 'Times New Roman', Times, serif;"> {{ cropname }} </p></b>
+     </center>
+    <div style="column-gap: 5000px;">
+ <table class="table table-hover">
+    <thead style="font-size: 50px;background-color: #34495e;color:whitesmoke;">
+        <tr>
+          <th scope="col"></th>
+          <th scope="col" style="width: 500px;">Crop Details</th>
+          <th scope="col"><center>Descrition</center></th>
+
+        </tr>
+      </thead>
+    <tbody style="font-family: 'Times New Roman', Times, serif;font-size: 35px;background-color:cornsilk">
+      <tr>
+        <th scope="row"></th>
+        <td>Crop Name :</td>
+        <td>{{ cropname }}</td> 
+      </tr>
+
+      <tr>
+        <th scope="row"></th>
+        <td>About:</td>
+        <td>{{ about }}</td>
+        
+      </tr>
+
+      <tr>
+        <th scope="row"></th>
+        <td >Biological Name:</td>
+        <td>{{ bio_name }}</td>
+      </tr>
+
+      <tr>
+        <th scope="row"></th>
+        <td >Seeds:</td>
+        <td>{{ seeds }}</td>
+      </tr>
+
+      <tr>
+        <th scope="row"></th>
+        <td >Soil Required:</td>
+        <td>{{ soil }}</td>
+      </tr>
+
+      <tr>
+        <th scope="row"></th>
+        <td >Major Growing States:</td>
+        <td>{{ major_g_states }}</td>
+      </tr>
+
+      <tr>
+        <th scope="row"></th>
+        <td >Climate:</td>
+        <td>{{ climate }}</td>
+      </tr>
+<!--------------
+      <tr>
+        <th scope="row"></th>
+        <td >Irrigation Schedule:</td>
+        <td>{{ irrigation }}</td>
+      </tr>
+    --------------------------->
+      <tr>
+        <th scope="row"></th>
+        <td >Growing Months:</td>
+        <td>{{ grow_months }}</td>
+      </tr>
+
+      <tr>
+        <th scope="row"></th>
+        <td >Yield (Days):</td>
+        <td>{{ yield_d }}</td>
+      </tr>
+
+      <tr>
+        <th scope="row"></th>
+        <td >Pesticiedes   :</td>
+        <td>{{ pesticide }}</td>
+      </tr>
+
+      <tr>
+        <th scope="row"></th>
+        <td >Chemical Used:</td>
+        <td>{{ chemical }}</td>
+      </tr>
+
+      <tr>
+        <th scope="row"></th>
+        <td >Diseases:</td>
+        <td>{{ diseases }}</td>
+      </tr>
+
+      <tr>
+        <th scope="row"></th>
+        <td >Symptoms:</td>
+        <td>{{ symptoms }}</td>
+      </tr>
+
+    </tbody>
+        </div>
+  </table>
+</br>
+<br>
+ 
+    </body>
+</html>
